@@ -39,9 +39,19 @@ Open the project using VS Code (PlatformIO). The `platformio.ini` file will auto
 
 ### 2. Starting the Python Data Bridge
 To install the necessary Python dependencies, open a terminal in the project directory and run:
+
 ```bash
 pip install -r requirements.txt
 
+```
+
 Next, launch the Python script to begin transferring data to InfluxDB and generating a local CSV report (mesh_performans_raporu.csv):
+
+```bash
 python data_bridge.py
-(Note: Make sure to update the SERIAL_PORT and InfluxDB INFLUX_TOKEN variables inside data_bridge.py to match your local environment.)
+
+```
+
+*(Note: Make sure to update the `SERIAL_PORT` and InfluxDB `INFLUX_TOKEN` variables inside `data_bridge.py` to match your local environment.)*
+
+```
