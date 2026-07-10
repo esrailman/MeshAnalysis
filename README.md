@@ -1,11 +1,10 @@
 # ESP32-Based Wireless Mesh Network (painlessMesh) Performance Analysis
 
 This project aims to analyze the performance, dynamic topology management, and self-healing capacity of a wireless mesh network created using three autonomous ESP32 microcontrollers. 
-
-## 👥 Developers (Gazi University)
-This project was carried out in collaboration with * **Fatıma Zehra Özyürek** - [GitHub Profile](https://github.com/ozyrkzhr), * **Merve Keleş** - [GitHub Profile](https://github.com/kelesmerve).
-
 Communication across the network is established using the `painlessMesh` library. Quality of Service (QoS) metrics such as Latency, Jitter, RTT, Hop Count, and RSSI are transferred to InfluxDB via a custom-developed Python bridge and monitored in real-time through a Grafana dashboard.
+
+## 👥 Contributers (Gazi University)
+This project was carried out in collaboration **with**  **Fatıma Zehra Özyürek** - [GitHub Profile](https://github.com/ozyrkzhr),  **Merve Keleş** - [GitHub Profile](https://github.com/kelesmerve).
 
 ## 🏗 System Architecture
 
