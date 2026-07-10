@@ -53,5 +53,3 @@ python data_bridge.py
 ```
 
 *(Note: Make sure to update the `SERIAL_PORT` and InfluxDB `INFLUX_TOKEN` variables inside `data_bridge.py` to match your local environment.)*
-
-```
